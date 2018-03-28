@@ -12,13 +12,13 @@ The better way to bind shortcuts.
 
     KeyboardMan.on('ctrl&(s|d)', function () {
         // [ctrl + s]  or [ctrl + d] to save
-    })  
+    })
 
     KeyboardMan.on('ctrl&x&c|(ctrl&x+ctrl&c)', function () {
         // Emacs exit
     })
 
-    KeyboardMan.on('shirt&;+q', function () {
+    KeyboardMan.on('shift&;+q', function () {
         // Vim exit
     })
 
@@ -29,6 +29,9 @@ The better way to bind shortcuts.
 
 ## Why KeyboardMan ?
 
+我们希望给你提供最简洁明了的 API，同时也支持用最简短的描述申明复杂的按键监听。
 
 
 ## How to Contribute
+
+非常荣幸你能看见这里。任何 PR 或 issue 都会被认真考虑。
